@@ -42,8 +42,4 @@ Images used on the web pages have been retrieved from the following free image s
 
 Blog texts, introduction text and happy user testimonials were written by **ChatGTP** based on given framework and some keywords.
 
----
 
-## Link for Figma designs
-
-UI Figma designs can be found [here.](https://www.figma.com/file/Ue6heavQiI2VgJlcUJp0hR/UI-design---Fitness-website?node-id=0%3A1&t=K3lXatu8Y4xE1sjB-1)
