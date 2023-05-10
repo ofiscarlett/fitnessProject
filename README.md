@@ -4,10 +4,6 @@ This Fitness web site has been created as a project work for OAMK first year Inf
 
 The web site includes fitness-related blog texts that users can read and comment, a web shop to buy courses related to fitness and wellness, body mass index and calorie calculators, and short stories about successful user experiences.
 
-## Team members
-
->Shu Sheng, Huyen Nguyen, Shamima Shammi, Shehara Wadu Mesthri and Liisa Törmäkangas
-
 ---
 
 ## How to install and run the application
