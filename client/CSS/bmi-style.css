@@ -1,0 +1,107 @@
+/* calculator body */
+.cal-section{
+    background-color: #000000
+}
+.bodycalculator {
+    background-color: #ffffff;
+    max-width: 1560px;
+    margin: auto;
+}
+
+.text-center p {
+    text-align: justify;
+    font-size: 1.3em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.calculator {
+    background-color: #000000;
+    color: #ffffff;
+    /* border-radius: 16px; */
+    max-width: 900px;
+    margin-bottom: 40px;
+    border: 3px solid #000000;
+}
+.calculator form {
+    color: #000000;
+}
+
+.calculator-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.calculator-row h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.activity {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 16px;
+    max-width: 815px;
+}
+#calculator-submit{
+    background-color: #FF0266;
+    border-radius: 7px;
+    border: none;
+    color: black;
+    font-weight: bold;
+    width: auto;
+}
+#calculator-submit:hover{
+    background-color: #03DAC6;
+    color: #000000;
+}
+.form-label{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.result {
+    font-size: large;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.calculator .form-check-input:checked{
+    background-color: #FF0266;
+    border-color: #FF0266;
+}
+.calculator .form-control, .form-check-input, #activity{
+    border-color: #000000;
+}
+.calculator-inputs-content{
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+.units{
+    font-size: 0.7rem;
+}
+.output .result{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.result-value{
+    background-color: #03DAC6;
+    min-height: 50px;
+    line-height: 50px;
+    color: #000000;
+}
+
+@media(max-width: 768px) {
+    .calculator-row h1 {
+        font-size: 2em;
+    }
+}
+@media(max-width: 572px) {
+    .calculator-row h1 {
+        font-size: 1.5em;
+    }
+    .text-center p {
+        font-size: 1em;
+    }
+}

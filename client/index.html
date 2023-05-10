@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="css/respons.css"> -->
+    <link rel="stylesheet" href="CSS/front new correct.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/login_register.css">
+    <link rel="stylesheet" href="CSS/bmi-style.css">
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>Fit'nHealth | Home</title>
+    <!-- favicon title -->
+    <link rel="icon" type="image/png" href="./images/fitnhealth-low-resolution-color-logo.png">
+    <link rel="apple-touch-icon" type="image/png" href="./images/fitnhealth-low-resolution-color-logo.png" />
+</head>
+
+<body>
+    <!-- main section -->
+    <div class="w-100"><!-- header starts here -->
+        <div class="upper-menu p-sm-2 p-md-3"><!-- upper menu starts here -->
+            <div class="social-icons px-3"><!-- social-icons starts here -->
+                <a href="#"><i class="fab fa-facebook me-sm-2 me-md-4"></i></a>
+                <a href="#"><i class="fab fa-youtube me-sm-2 me-md-4"></i></a>
+                <a href="#"><i class="fab fa-instagram me-sm-2 me-md-4"></i></a>
+            </div><!-- social-icons ends here -->
+
+            <div class="login-cart-section"><!-- login,reg,cart starts here -->
+                <div class="login-cart-wrapper">
+                    <a id="loginButton" class="mx-2"><i class="fa-solid fa-right-to-bracket pe-1"></i>Login</a>
+                    <a id="logoutButton" class="mx-2"><i class="fa-solid fa-right-from-bracket pe-1"></i>Logout</a>
+                    <button id="registerButton" class="register-btn mx-3">Register</button>
+                    <div class="cart mx-3">
+                        <a href="cart.html" id="cart-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span id="total-Items"></span></a>
+                    </div>
+                </div>
+            </div><!-- login,reg,cart ends here -->
+        </div><!-- upper menu ends here -->
+        <nav class="navbar navbar-expand-lg bg-black"><!-- bottom menu starts here -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img
+                        src="./images/fitnhealth-low-resolution-logo-color-on-transparent-background (1).png"
+                        alt="logo"></a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item ms-md-2 ms-lg-5">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item  ms-md-2 ms-lg-5">
+                            <a class="nav-link" href="blogs.html">Blogs</a>
+                        </li>
+                        <li class="nav-item  ms-md-2 ms-lg-5">
+                            <a class="nav-link" href="courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item  ms-md-2 ms-lg-5">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item  ms-md-2 ms-lg-5">
+                            <a class="nav-link" href="about.html#contact">Contact</a>
+                        </li>
+                        <form class="form-inline search-box ms-md-2 ms-lg-5">
+                            <input type="text" class="search-input" placeholder="Search..">
+                            <button class="search-button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav><!-- bottom menu ends here -->
+    </div><!-- header ends here -->
+
+    <!-- cover, main section starts here add container-fluid at first div -->
+    <section class="main container-fluid " id="top-id">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-7">
+                    <h1>
+                        ENHANCE YOUR BODY POWER
+                    </h1>
+                    <button id="joinUsNow" class="btn joinwus" type="button"> JOIN WITH US </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2nd section -->
+    <section class="container-fluid join-container">
+        <div class="container secdiv">
+            <div class="workout">
+                <h1 class="twoline">
+                    WE ARE BEYOND A BODYWORKOUT CENTER
+                </h1>
+                <P>
+                    We are more than just a body workout center - we're a community of like-minded individuals who are
+                    dedicated to improving our health and well-being. Our diverse range of fitness courses caters to
+                    every level of fitness, from beginner to advanced. In addition, our fitness and wellness blogs
+                    provide valuable insights and tips to help you achieve your goals. Join us on this journey to a
+                    healthier, happier you!
+                </P>
+            </div>
+            
+
+                <div class="training-class">
+                    <h1 class="twoline">
+                        JOIN OUR WORKOUT TRAINING
+                    </h1>
+                </div>
+                <div id="container" class="container" style="text-align: center">
+                    <div id="content">
+                        <div class="product-card">
+                            <div class="ribbon ribbon-top-right"><span>60€ / month</span></div>
+                            <img src="images\Yoga1.jpg" alt="Product image">
+                            <h3>BODY BALANCE</h3>
+                            <p>Yoga promotes body balance by improving strength, flexibility, and alignment.
+                                Through mindfulness and meditation practices, yoga can help cultivate a greater sense of
+                                physical and mental equilibrium.</p>
+                            <a href="courseDetails.html?id=1" class="view-more">View more</a>
+                            <button id="enrollButton" data-id="1" class="buy-btn">Enroll now</button>
+                            <div class="star-container">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="ribbon ribbon-top-right"><span>70€ / month</span></div>
+                            <img src="images/Body Step.jpg" alt="Product image">
+                            <h3>BODY STEP</h3>
+                            <p>Yoga promotes body balance by improving strength, flexibility, and alignment.
+                                Through mindfulness and meditation practices, yoga can help cultivate a greater sense of
+                                physical and mental equilibrium.</p>
+                            <a href="courseDetails.html?id=2" class="view-more">View more</a>
+                            <button id="enrollButton" data-id="2" class="buy-btn">Enroll now</button>
+                            <div class="star-container">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="ribbon ribbon-top-right"><span>70€ / month</span></div>
+                            <img src="images\Body attack.jpg" alt="Product image">
+                            <h3>BODY ATTACK</h3>
+                            <p>Yoga promotes body balance by improving strength, flexibility, and alignment.
+                                Through mindfulness and meditation practices, yoga can help cultivate a greater sense of
+                                physical and mental equilibrium.</p>
+                            <a href="courseDetails.html?id=3" class="view-more">View more</a>
+                            <button id="enrollButton" data-id="3" class="buy-btn">Enroll now</button>
+                            <div class="star-container">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </div>
+                        </div>
+
+                        <div class="product-card">
+                            <div class="ribbon ribbon-top-right"><span>60€ / month</span></div>
+                            <img src="images\Aerobic.jpg" alt="Product image">
+                            <h3>AEROBIC</h3>
+                            <p>Yoga promotes body balance by improving strength, flexibility, and alignment.
+                                Through mindfulness and meditation practices, yoga can help cultivate a greater sense of
+                                physical and mental equilibrium.</p>
+                            <a href="courseDetails.html?id=4" class="view-more">View more</a>
+                            <button id="enrollButton" data-id="4" class="buy-btn">Enroll now</button>
+                            <div class="star-container">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                        <div class="viewmore pt-5 pb-5 mb-0">
+                            <h4> <a href="courses.html">View All Courses</a></h4>
+                        </div>
+
+                    </div>
+                </div>
+        </div>
+        <!-- trainer section -->
+        <div class="trainer container-fluid pt-2 mt-0">
+            <h1>OUR TRAINERS</h1>
+            <div class="trainer-container">
+                <div class="trainer-row">
+                    <div class="trainer-col col-md-4 col-sm-6">
+                        <div class="img-area">
+                            <img src="images/trainer-f1_new.png" alt="" class="img-fluid  mx-auto">
+                            <div class="img-text">
+                               <a href="about.html#trainer1">
+                                    <h3>Jane Seymour</h3>
+                                    <h5>Yoga master</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-col col-md-4 col-sm-6">
+                        <div class="img-area">
+                            <img src="images/trainer-f4_new.png" alt="" class="img-fluid mx-auto">
+                            <div class="img-text">
+                                <a href="about.html#trainer4">
+                                    <h3>Stephanie Liverani</h3>
+                                    <h5>Core Trainer Master</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-col col-md-4 col-sm-6">
+                        <div class="img-area">
+                            <img src="images/trainer-f2_new.png" alt="" class="img-fluid mx-auto">
+                            <div class="img-text">
+                                <a href="about.html#trainer3">
+                                    <h3>Vicky Haldynet</h3>
+                                    <h5>Gym Master</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-col col-md-4 col-sm-6">
+                        <div class="img-area">
+                            <img src="images/trainer-f3_new.png" alt="" class="img-fluid mx-auto pb-0">
+                            <div class="img-text">
+                                <a href="about.html#trainer2">
+                                    <h3>Johnny Smith</h3>
+                                    <h5>Personal Trainer</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- trainer end here -->
+        
+        <!-- testimonial starts from here -->
+    </section>
+
+    <section id="happy-customer">
+        <div class="hacustomer container-fluid pt-5">
+            <h1>HAPPY CUSTOMERS</h1>
+
+            <div class="testi-container  ">
+
+                <div class="testi-box ">
+                    <p>
+                        Body step classes have completely transformed my leg muscles and overall health. I used to
+                        struggle with daily activities due to weakness and pain, but since starting twice-weekly
+                        classes, I feel stronger, more energetic, and more capable than ever before. The combination of
+                        cardio and strength training has been a game-changer for me!
+                    </p>
+                    <h4>Scarlett</h4>
+                </div>
+                <div class="testi-box ">
+                    <p>
+                        Their body balance classes have transformed my life. Since I started attending three times a
+                        week, my chronic low back pain has significantly reduced, and my overall energy levels have
+                        skyrocketed. I feel stronger, more flexible, and more balanced than ever before!
+                    </p>
+                    <h4>Shammi</h4>
+                </div>
+                <div class="testi-box">
+                    <p>
+                        Crossfit has transformed my body and my mindset. I have gained incredible muscle strength and
+                        feel more confident than ever before. Thanks to regular attendance at the gym and a supportive
+                        community, I have achieved my fitness goals and am eager for more challenges.
+                    </p>
+                    <h4>Shehara</h4>
+                </div>
+                <div class="testi-box">
+                    <p>
+                        I was never a yoga-person before. But since I started it, yoga has been a game-changer for me.
+                        Regular practice has given me a sense of calm and r'lief from stress that I never thought
+                        possible. Not only that, but I have also noticed an increase in my energy levels and overall
+                        physical strength. I can warmly recommend these yoga classes to everyone!
+                    </p>
+                    <h4>Liisa</h4>
+                </div>
+                <div class="testi-box">
+                    <p>
+                        Attending aerobic classes has been life-changing for me. My overall health has improved, and I
+                        feel more energized than ever before. The positive atmosphere in class and the support of the
+                        instructor have also helped me overcome anxiety and stress. Aerobics is now a vital part of my
+                        lifestyle.
+                    </p>
+                    <h4>Huyen</h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section">
+        <div class="all-blog-container container-fluid">
+        <h1>READ INTERESTING BLOGS</h1>
+        <div class="container blog-container">
+            <div class="row blog-row">
+                <div class="card">
+                    <div class="col-sm-12 col-md-4">
+                        <img class="card-img-top cardImage" src="./images/blog_images/blog_abdominal.jpg">
+                    </div>
+                    <div class="col-sm-12 col-md-8 card-body">
+                        <h4 class="card-title">Importance of strong abdominal muscles</h4>
+                        <div class="author-date">
+                            <div class="author col-4">
+                                <img id="icon1" src="./images/svg_icons/user.svg">
+                                <div style="margin-left: 4%">@Maria</div>
+                            </div>
+                            <div class="date col-8">
+                                <img style="margin-right: 4%" id="icon2" src="./images/svg_icons/clock.svg">
+                                <div>July 22, 2023</div>
+                            </div>
+                        </div>
+                        <hr style="color:aliceblue; height: 3px; border: none; background-color: aliceblue">
+                        <div class="card-text ">
+                            As a physiotherapist with extensive experience in treating low back problems, I cannot
+                            emphasize
+                            enough the importance of strong abdominal muscles. Strong abdominal muscles play a crucial
+                            role
+                            in
+                            maintaining a healthy spine and reducing the risk of low back pain.
+                        </div>
+                        <!-- change the class name from btn to blog-btn to aviod complict  -->
+                        <button data-id="2" class="blog-btn">Read more >> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <div class="col-sm-12 col-md-4">
+                        <img class="card-img-top cardImage" src="./images/blog_images/blog_diet.jpg">
+                    </div>
+                    <div class="col-sm-12 col-md-8 card-body">
+                        <h4 class="card-title">Diet makes sense!</h4>
+                        <div class="author-date">
+                            <div class="author col-4">
+                                <img id="icon1" src="./images/svg_icons/user.svg">
+                                <div style="margin-left: 4%">@Ellen</div>
+                            </div>
+                            <div class="date col-8">
+                                <img style="margin-right: 4%" id="icon2" src="./images/svg_icons/clock.svg">
+                                <div>March 12, 2023</div>
+                            </div>
+                        </div>
+                        <hr style="color:aliceblue; height: 3px; border: none; background-color: aliceblue">
+                        <div class="card-text">
+                            Hello everyone, I am excited to share some helpful tips for those of you who are training to
+                            lose weight and feel better. As an educated nutritionist, I know how important it is to have
+                            a balanced diet when it comes to achieving your fitness goals.
+                        </div>
+                        <!-- change the class name from btn to blog-btn to aviod complict  -->
+                        <button data-id="5" class="blog-btn">Read more >> </button>
+                    </div>
+                </div>
+            </div>
+            <div class="viewmore pb-5 pt-5">
+                <h4> <a href="blogs.html">View All Blogs</a></h4>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--  BMI Calculator is here -->
+    <section class="cal-section">
+        <div class="container-fluid bodycalculator mt-0"><!-- body container starts -->
+            <div class="row calculator-row">
+                <div class="col-12 text-center">
+                    <h1>BODY CALCULATOR</h1>
+                    <p class="p-5">Body Mass Index (BMI) is a measurement is a good way to gauge whether your weight is in healthy
+                        proportion to your height.
+                        The Basal Metabolic Rate (BMR) estimates your basal metabolic rate—the amount of energy expended
+                        while at rest in a neutrally temperate environment, and in a post-absorptive state
+                        (meaning that the digestive system is inactive, which requires about 12 hours of fasting).
+                        The Required Calorie amount estimate the number of calories a person needs to consume each day
+                        to gain or lose or maintain the weight based on the activity level. But this is just an
+                        estimate. Not a precise number.
+                    </p>
+                </div>
+            </div>
+            <div class="container p-md-4 p-sm-2 calculator"> <!-- calculator starts -->
+                <div class="row"><!-- main row starts -->
+                    <div class="col-md-6 calculator-inputs-content p-4"><!-- inputs starts -->
+                        <form class="needs-validation" id="bmi-form" novalidate>
+
+                            <div class="row mb-4"><!-- Height starts -->
+                                <div class="col-sm-3">
+                                    <label for="height" class="form-label">Height</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="height" class="form-control" id="height" required>
+                                </div>
+                                <div class="col-sm-1">
+                                    <span class="units">cm</span>
+                                </div>
+                            </div><!-- Height ends -->
+                            <div class="row mb-4"><!-- Weight starts -->
+                                <div class="col-sm-3">
+                                    <label for="text" class="form-label">Weight</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="weight" required>
+                                </div>
+                                <div class="col-sm-1">
+                                    <span class="units">kg</span>
+                                </div>
+                            </div><!-- Weight ends -->
+                            <fieldset class="row mb-4"><!-- gender starts -->
+                                <div class="col-4">
+                                    <div class="form-label">Gender</div>
+                                </div>
+                                <div class="col-4"><!-- male starts -->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gender" id="male"
+                                            value="male" required>
+                                        <label class="form-check-label" for="male">
+                                            Male
+                                        </label>
+                                    </div>
+                                </div><!--male ends -->
+                                <div class="col-4"><!-- female starts -->
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gender" id="female"
+                                            value="female" required>
+                                        <label class="form-check-label" for="female">
+                                            Female
+                                        </label>
+                                    </div>
+                                </div><!--female ends -->
+                            </fieldset><!-- gender ends -->
+                            <div class="row mb-4"><!-- Age starts -->
+                                <div class="col-3">
+                                    <label for="age" class="form-label">Age</label>
+                                </div>
+                                <div class="col-8">
+                                    <input type="number" class="form-control" id="age" required>
+                                </div>
+                                <div class="col-1 ps-0">
+                                    <span class="units">years</span>
+                                </div>
+                            </div><!-- Age ends -->
+                            <div class="row mb-4"><!-- activity starts -->
+                                <div class="col-3">
+                                    <label for="activity" class="form-label">Activity Level</label>
+                                </div>
+                                <div class="col-9">
+                                    <select id="activity" name="activity">
+                                        <option id="1" value="1">Sedentary</option>
+                                        <option id="2" value="2">Lightly active</option>
+                                        <option id="3" value="3">Moderately active</option>
+                                        <option id="4" value="4">Very active</option>
+                                        <option id="5" value="5">Extra active</option>
+                                    </select>
+                                </div>
+                            </div><!-- activity ends -->
+                            <div class="row mb-4"><!-- TargetWeight starts -->
+                                <div class="col-sm-3">
+                                    <label for="text" class="form-label">Target Weight</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="tar-weight" required>
+                                </div>
+                                <div class="col-sm-1">
+                                    <span class="units">kg</span>
+                                </div>
+                            </div><!-- TargetWeight ends -->
+                            <div class="col-12 text-center ms-2">
+                                <button type="submit" class="btn btn-primary cal-button ms-3 mt-3"
+                                    id="calculator-submit">Show Results</button>
+                            </div>
+                        </form>
+                    </div><!-- input ends -->
+                    <div class="col-md-6 output p-3 text-center"><!-- output starts -->
+                        <div class="col-12 result mt-3">
+                            <p>YOUR BMI VALUE :
+                        </div>
+                        <div class="col-12 mt-2">
+                            <div class="result-value"><span id="bmi-value"></span></div>
+                        </div>
+                        <div class="col-12 result mt-3">
+                            <p>YOUR WEIGHT CATEGORY :
+                        </div>
+                        <div class="col-12 mt-2">
+                            <div class="result-value"> <span id="bmi-status"></span></div>
+                        </div>
+                        <div class="col-12 result mt-3">
+                            <p>YOUR BMR VALUE :
+                        </div>
+                        <div class="col-12 mt-2">
+                            <div class="result-value"> <span id="bmr-value"></span></div>
+                        </div>
+                        <div class="col-12 result mt-3">
+                            <p>CALORIES REQUIRED <span id="control"></span>:
+                        </div>
+                        <div class="result-value"><span id="calories"></span></div>
+
+                    </div><!-- output ends -->
+                </div><!-- main row ends -->
+            </div> <!-- calculator ends -->
+            <div id="to-top-link" class="text-end  pe-4 pb-4">
+                <a href="#top-id">
+                    <i class="fa-solid fa-arrow-up me-1"></i>Go to Top
+                </a>
+            </div>
+        </div><!-- body container ends -->
+    </section>
+
+    <!-- footer color, will it be same balck or use bootstrap bg-dark class -->
+    <footer class="bg-dark py-4 container-fluid ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footerlogo">
+                        <a href="#">
+                            <img style="margin-bottom: 10px"
+                                src="./images/fitnhealth-low-resolution-logo-color-on-transparent-background (1).png"
+                                alt="logo">
+                        </a>
+                    </div>
+                    <ul class="list-unstyled">
+                        <!--<li><a href="#" class="text-decoration-none ">Fitness</a></li>-->
+                        <li><a href="#" class="text-decoration-none">Terms and Conditions</a></li>
+                        <p>&copy; 2023 Fitness Web</p>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>CONTACT US</h5>
+                    <ul class="list-unstyled contact">
+                        <li class="d-flex address"><a href="#" class="text-decoration-none "><i
+                                    class="bi bi-geo-alt contacticon"></i></a>Pentti katu 1, 90570 Oulu</li>
+                        <li class="d-flex address"><a href="#" class="text-decoration-none "><i
+                                    class="bi bi-telephone contacticon"></i></a>+358 40 12345678</li>
+                        <li class="d-flex address"><a href="#" class="text-decoration-none "><i
+                                    class="bi bi-send contacticon"></i>hello@fitness.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>SOCIAL NETWORK</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li><a href="#"><i class="bi bi-facebook icon-network"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram icon-network"></i></a></li>
+                        <li><a href="#"><i class="bi bi-youtube icon-network"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- login modal -->
+    <div class="modal" tabindex="-1" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modHeader">
+                    <img class="logo">
+                    <button type="button" class="closeBtn" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+                <div class="navigation">
+                    <ul class="breadcrumb1">
+                        <li><a href="index.html" data-bs-dismiss="modal" aria-label="Close">Home</a></li>
+                        <li>Login</li>
+                    </ul>
+                </div>
+                <div class="modal-body modBody">
+                    <form id="loginForm" class="needs-validation" novalidate>
+                        <div class="formBody">
+                            <div style="margin-bottom: 20px;">
+                                <label class="form-label" for="userName">username:</label>
+                                <input class="form-control loginInput" type="text" id="userName" name="userName"
+                                    required>
+                                <div class="invalid-feedback">Please enter a username.</div>
+                            </div>
+                            <div style="margin-bottom: 20px">
+                                <label class="form-label" for="password">password:</label>
+                                <input class="form-control loginInput" type="password" id="password" name="password"
+                                    required>
+                                <div class="invalid-feedback">Please enter a password.</div>
+                            </div>
+                        </div>
+                        <button id="submitLogin" type="submit" class="btn submitBtn" data-bs-dismiss="modal"
+                            aria-label="Close">Login</button>
+                        <div style="margin-top: 10px; font-size: small;"><a class="link" href="/link">Forgot your
+                                password?</a></div>
+                    </form>
+                    <div style="margin-top: 20px; margin-bottom: 30px; font-size: small;">
+                        <div>Not registered yet?</div>
+                        <div><a id="toRegister" class="link">Register here</a> as a new user.</div>
+                    </div>
+                </div>
+                <div class="modal-footer modalFooter"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- register modal -->
+    <div class="modal" tabindex="-1" id="registerModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header modHeader">
+                    <img src=>
+                    <button type="button" class="closeBtn" data-bs-dismiss="modal" aria-label="Close">X</button>
+                </div>
+                <div class="navigation">
+                    <ul class="breadcrumb1">
+                        <li><a href="index.html" data-bs-dismiss="modal" aria-label="Close">Home</a></li>
+                        <li>Register</li>
+                    </ul>
+                </div>
+                <div class="modal-body modBody">
+                    <form id="registerForm" class="needs-validation" novalidate action="register.php" method="post">
+                        <div class="formBody">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6 mt-0">
+                                    <input class="form-control registerInput" type="text" placeholder="*First name"
+                                        id="firstname" name="firstname" required>
+                                    <div class="invalid-feedback">Please enter your first name.</div>
+                                </div>
+                                <div class="col-12 col-sm-6 mt-0">
+                                    <input class="form-control registerInput" type="text" placeholder="*Last name"
+                                        id="lastname" name="lastname" required>
+                                    <div class="invalid-feedback">Please enter your surname.</div>
+                                </div>
+                                <div class="col-12 mt-0">
+                                    <input class="form-control registerInput" type="email" placeholder="*Email"
+                                        id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                                        required>
+                                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                                </div>
+                                <div class="col-12 mt-0">
+                                    <input class="form-control registerInput" type="tel" placeholder="*phone"
+                                        id="phone_number" name="phone_number" pattern="[0-9]{10}" required>
+                                    <div class="invalid-feedback">Please enter a phone number without any spaces.</div>
+                                </div>
+                                <div class="col-12 mt-0">
+                                    <input class="form-control registerInput" type="text" placeholder="*Street address"
+                                        id="street_address" name="street_address" required>
+                                    <div class="invalid-feedback">Please enter a street address.</div>
+                                </div>
+                                <div class="col-12 col-sm-6 mt-0">
+                                    <input class="form-control registerInput" type="text" placeholder="*Postal Code"
+                                        id="postal_code" name="postal_code" pattern="[0-9]{5}" required>
+                                    <div class="invalid-feedback">Please enter a valid postal code.</div>
+                                </div>
+                                <div class="col-12 col-sm-6 mt-0">
+                                    <input class="form-control registerInput" type="text" placeholder="*City" id="city"
+                                        name="city" required>
+                                    <div class="invalid-feedback">Please enter a city.</div>
+                                </div>
+                            </div>
+                            <div class="col-12 mt-0">
+                                <label style="font-size:x-small; margin-top: 20px;" for="user">Set username and
+                                    password:</label>
+                                <input class="form-control registerInput" type="text" placeholder="*Username"
+                                    id="username" name="username" required>
+                                <div class="invalid-feedback">You must set yourself a username.</div>
+                            </div>
+                            <div class="col-12 mt-0">
+                                <input class="form-control registerInput" type="password" placeholder="*Password"
+                                    id="passwd" name="passwd" required>
+                                <div class="invalid-feedback">You must set yourself a password.</div>
+                            </div>
+                            <div class="col-12 mt-0">
+                                <label style="font-size:x-small; margin-top: 10px;" for="passwd2">Repeat
+                                    password:</label>
+                                <input class="form-control registerInput" type="password"
+                                    placeholder="*Re-enter password" id="passwd2" name="passwd2" required>
+                                <div class="invalid-feedback" id="confirm_password_error">You must repeat your password
+                                    correctly.</div>
+                            </div>
+                            <div style="font-size:x-small; text-align: center; margin-top: 20px;">By registering, you
+                                agree to our <a class="link">Terms and Conditions</a> of use and <a class="link">Privacy
+                                    Policy</a></div>
+                        </div>
+                        <div class="d-grid gap-2" style="justify-items: center">
+                            <button id="submitRegisterData" type="submit" class="btn submitBtn" disabled
+                                data-bs-dismiss="modal" aria-label="Close">Register</button>
+                        </div>
+                    </form>
+                    <div style="margin-top: 20px; margin-bottom: 30px; font-size: small;">
+                        <div>Allready a user?<a id="toLogin" class="link"> Login here</a></div>
+                    </div>
+                </div>
+                <div class="modal-footer modalFooter"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load jQuery first -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Load Bootstrap JavaScript after jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <!-- Load your custom scripts -->
+    <script src="./JavaScript/modals.js" type="module"></script>
+    <script src="./JavaScript/index.js" type="module"></script>
+    <script src="./JavaScript/bmi.js" type="module"></script>
+</body>
+
+</html>

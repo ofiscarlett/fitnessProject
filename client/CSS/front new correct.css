@@ -1,0 +1,724 @@
+*{
+  font-family: 'Montserrat';
+}
+body{
+  background-color: #000000 !important;
+}
+.main {
+  background: url(../images/coverimg.jpg) no-repeat;
+  background-size: cover;
+  height: 60vh;
+  background-position: 50% 50%;
+  width: 100%;
+  /*let main div close to down one and dont see gap*/
+  margin-bottom: -10px;
+}
+
+.main h1 {
+  color: #03DAC6;
+  font-weight: 600;
+  font-size: 4em;
+  text-align: left;
+  padding-top: 20%;
+  margin-bottom: -20px;
+}
+
+.main button {
+  background-color: #FF0266;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 25px;
+  margin-left: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main button:hover {
+  background-color: #03DAC6;
+}
+
+.secdiv {
+  max-width: 1560px;
+  background-color: #fff;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.join-container {
+  width: 100%;
+  background-color: #000;
+}
+
+/* cancel the gap between main and join section */
+section .main,
+.join-container {
+  margin: 0;
+  padding: 0;
+}
+
+/* card css here */
+/* ALL CLASSES VIEW*/
+.breadcrumb {
+  padding: 20px 15px;
+}
+
+.breadcrumb ul {
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb ul li {
+  list-style: none;
+  display: inline;
+  font-size: 1rem;
+}
+
+.breadcrumb ul li::after {
+  content: "\f105";
+  padding: 0 8px;
+  color: black;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+.breadcrumb ul li:last-child:after {
+  content: "";
+}
+
+.breadcrumb ul li a {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: color 0.7s ease-in;
+  transition: color 0.7s ease-in;
+}
+
+.breadcrumb ul li a:hover {
+  color: #1459cc;
+}
+
+#content {
+  margin: auto;
+  min-height: 400px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.product-card {
+  background-color: #000;
+  color: #fff;
+  width: 300px;
+  height: 500px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #2980b9;
+}
+
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 15px 0;
+  background-color: #03DAC6;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+  color: #fff;
+  font: 700 18px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* top right*/
+.ribbon-top-right {
+  top: -10px;
+  right: -10px;
+}
+
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+
+.ribbon-top-right::before {
+  top: 0;
+  left: 0;
+}
+
+.ribbon-top-right::after {
+  bottom: 0;
+  right: 0;
+}
+
+.ribbon-top-right span {
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+}
+
+/*add product-card in case img css will apple to other*/
+.product-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+/*add product-card in case img css will apple to other*/
+.product-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/*add product-card in case img css will apple to other*/
+.product-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.view-more {
+  /* bottom: 10px;
+  left: 10px; */
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.view-more:hover {
+  color: #FF0266;
+}
+
+.buy-btn {
+  position: absolute;
+  bottom: 15px;
+  /* change left from 40 to 32 to adjust not too close to view more */
+  left: 32px;
+  background-color: #03DAC6;
+  color: black;
+  border: none;
+  padding: 7px 7px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.buy-btn:hover {
+  background-color: #FF0266;
+}
+
+/*Style for the star rating*/
+.checked {
+  color: orange;
+}
+
+.star-container {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  transform: translate(-50%, 50%);
+}
+
+/* add view all course link */
+.viewmore a {
+  text-align: center;
+  color: #03DAC6;
+  font-weight: 500;
+  font-size: 1.5rem;
+  display: block;
+  text-decoration: underline;
+}
+
+.viewmore a:hover {
+  color: #FF0266;
+}
+/* caousel-courses */
+.carousel-inner {
+  width: 100%;
+  height: 400px;
+}
+.carousel-item {
+  width: 33%;
+}
+
+/* for workout and training part */
+.workout .training-class h1 {
+  color: black;
+  font-weight: 600;
+  font-size: 3.5em;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.twoline {
+  max-width: 700px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.workout h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.workout p {
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 10px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.training-class {
+  padding-top: 5%;
+  padding-bottom: 1%;
+}
+
+.training-class h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+/* cancel the gap */
+#top-section {
+  margin-bottom: 0;
+}
+
+/* trainer css code here */
+.trainer {
+  margin-top: 1px;
+}
+
+.trainer {
+  max-width: 1560px;
+  margin: -30 auto;
+  background: linear-gradient(#fff, #fff, #000) 0 / 50% 100%, no-repeat;
+}
+
+.trainer h1 {
+  color: black;
+  font-weight: 600;
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.trainer-container {
+  max-width: 1560px;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#fff, #fff, #000) 0 / 50% 100%, no-repeat;
+}
+
+/*fix testimonial css to fit */
+.trainer-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.img-area {
+  vertical-align: top;
+  text-align: center;
+  color: black;
+  position: relative;
+  padding: 1% 1%;
+  box-sizing: border-box;
+  display: inline;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.img-area img {
+  width: 270px;
+  height: auto;
+  display: block;
+}
+
+/* old effect */
+.img-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.img-text a{
+  color: white;
+  text-decoration: none;
+}
+.img-text a:hover{
+  font-size: 150%;
+}
+
+/*solution for too small background color*/
+.img-area:hover .img-text {
+  opacity: 1;
+  transform: translateY(0%);
+  background-color: #FF0266;
+  bottom: -10%;
+  left: 0;
+  width: 170px;
+  height: 50%;
+  padding: 20px;
+  transition: bottom 0.6s ease-in-out;
+}
+
+.img-text h3,
+.img-text h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.img-text h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.img-text h5 {
+  font-size: 16px;
+}
+
+.img-text:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-40%);
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: rgba(255, 2, 102, 0.9) transparent transparent transparent;
+  margin-bottom: 20px;
+}
+
+.trainer-col:last-child .img-area {
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .trainer-row .col-md-4 {
+    width: 25%;
+  }
+}
+
+/* testimoinal section */
+.hacustomer {
+  padding: 30px 0;
+  margin-top: -30px;
+  background: #fff;
+  max-width: 1560px;
+}
+
+.hacustomer h1 {
+  color: black;
+  align-items: center;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 10px;
+}
+#happy-customer {
+ background-color: #000000;
+}
+
+.testi-container {
+  margin-top: 30px;
+  max-width: 1560px;
+  background-color: #fff;
+  /* background-color: rgb(235, 231, 231); */
+  color: #000;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: -30px;
+}
+
+.testi-container .testi-box {
+  position: relative;
+  padding: 40px;
+  transition: 0.5s;
+  text-align: center;
+  background: #fff;
+}
+
+.testi-container .testi-box p {
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.testi-container .testi-box::before {
+  content: "";
+  position: absolute;
+  color: #000;
+  top: 20px;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background-image: url(../images/quote.png);
+  background-size: cover;
+  opacity: 0.3;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+/*This is put the quote at right bottom */
+.testi-container .testi-box::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  background-image: url(../images/quote.png);
+  background-size: cover;
+  opacity: 0.3;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.testi-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.testi-box {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* blog section */
+.blog-section {
+  background-color: #000000;
+}
+.all-blog-container {
+  /* padding: 30px 0; */
+  /* margin-top: -30px; */
+  background: #fff;
+  max-width: 1560px;
+}
+
+.blog-section img {
+  display: flex;
+}
+
+.blog-section h1 {
+  color: black;
+  align-items: center;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 2.5em;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.blog-container {
+  margin: auto;
+  width: 90%;
+  color: aliceblue;
+  background-color: #fff !important;
+}
+
+.blog-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: auto;
+  background-color: black;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-text {
+  display: grid;
+  text-align: justify;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cardImage {
+  display: flex;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.author-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author {
+  display: flex;
+  justify-content: left;
+}
+
+.date {
+  display: flex;
+  justify-content: right;
+}
+
+.paragraph {
+  margin-bottom: 10%;
+}
+
+.blog-btn {
+  border: none;
+  color: aliceblue;
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+  background-color: #000;
+}
+#to-top-link a{
+  text-decoration: none;
+  color: #FF0266;
+  font-size: 2em;
+}
+#to-top-link a:hover{
+  color: #03DAC6;
+}
+
+@media(max-width: 992px) {
+  .main {
+    height: 45vh;
+  }
+
+  .main_h1 {
+    font-size: 3em;
+  }
+}
+
+@media(max-width: 768px) {
+  .main {
+    height: 30vh;
+  }
+
+  .card {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .card-text {
+    margin-bottom: 15%;
+  }
+
+  .card.title {
+    margin-bottom: 15%;
+  }
+
+  .main h1 {
+    font-size: 2.5em;
+  }
+
+  .training-class h1,
+  .workout h1,
+  .hacustomer h1,
+  .trainer h1,
+  .blog-section h1 {
+    font-size: 2em;
+  }
+
+  .trainer-row {
+    padding-left: 10px;
+  }
+
+  .testi-container .testi-box {
+    padding: 10px;
+  }
+
+  .viewmore a {
+    font-size: 1em;
+  }
+
+  .main button {
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+}
+
+@media(max-width: 576px) {
+  .main h1 {
+    font-size: 2em;
+  }
+
+  .training-class h1,
+  .workout h1,
+  .hacustomer h1,
+  .trainer h1,
+  .blog-section h1 {
+    font-size: 1.5em;
+  }
+
+  .workout p,
+  .card-text {
+    font-size: 0.9em;
+  }
+}

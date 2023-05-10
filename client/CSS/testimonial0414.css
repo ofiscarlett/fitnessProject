@@ -1,0 +1,265 @@
+*{
+  font-family: 'Montserrat';
+}
+/* upper-menu */
+.upper-menu{
+    background-color: #000 !important;
+    display:flex;
+    border: none;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+.upper-menu a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #fff;
+}
+.upper-menu a:hover{
+  color: rgb(245, 89, 22);
+} 
+
+.search-box {
+  position: relative;
+  display: flex;
+  width: 100%;
+}
+.search-input {
+  padding: 5px;
+  border: 1px solid #000000;
+  border-radius: 10px 0 0 10px;
+  border-right: none;
+  outline: none;
+  width: 100%;
+  /*  font-size: 20px; */
+}
+.search-button {
+  text-align: center;
+  /* height: 51px; */
+  width: 40px;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 0 10px 10px 0;
+  border-left: none;
+  /* background: none; */
+  /* font-size: 20px; */
+  border-left: 2px solid #000000;
+}
+
+/* login cart */
+
+.login-cart-wrapper{
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+/* cart */
+.cart {
+  position: relative;
+  display: block;
+  width: 28px;
+  height: 28px;
+  height: auto;
+  overflow: hidden;
+}
+
+.fa-shopping-cart {
+  position: relative;
+  top: 4px;
+  z-index: 1;
+  font-size: 24px;
+  color: white;
+}
+  #total-Items {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    font-size: 11px;
+    border-radius: 50%;
+    background: #FF0266;
+    width: 16px;
+    height: 16px;
+    line-height:16px;
+    display: block;
+    text-align: center;
+    color: white;
+  }
+  /* register */
+  .register-btn{
+    background-color: #FF0266 !important;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .hamburger-menu .login-cart-section {
+    display: none; /* Hide the login, reg, cart sections by default */
+  }
+  
+  .hamburger-menu.active .login-cart-section {
+    display: block; /* Show the login, reg, cart sections when hamburger icon is clicked */
+  }
+
+
+  /* bottom menu */
+  .nav-bar{
+    border:none;
+  }
+ .navbar-nav .nav-link{
+    color: #fff !important;
+  }
+
+  /* ul */
+  .navbar-nav{
+    padding-right: 30px;
+  }
+  /* li */
+  .nav-item{
+    margin-right: 50px;
+    font-size: 1.5rem;
+  }
+
+/*add navbar logo img*/
+  .navbar-brand img {
+    display: flex;
+    width: auto;
+    height: 60px;
+  }
+
+
+  /* color code
+black: #000000
+blue: #03DAC6
+pink:#FF0266
+white:#FFFFFF
+link color: #FF026 (pink)
+Hover color: #03DAC6 (blue) */
+
+.testi-container {
+  /* width: 1200px; */
+  background-color: rgb(235, 231, 231);
+  color: #000;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+ 
+}
+
+.testi-container .testi-box {
+    position: relative;
+    padding: 40px;
+    transition: 0.5s;
+    text-align: center;
+    background: #fff;
+  }
+ /*  .testi-container .testi-box:hover {
+    background: #FF0266;
+  }
+  .testi-container .testi-box:hover h4{
+    margin:20px 0 0;
+    padding: 0;
+    transition: 0.5s;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  .testi-container .testi-box:hover span{
+    font-weight: 480;
+    font-size: 14px;
+    transition: 0.5s;
+  } */
+ /*  .testi-container:hover,
+  .testi-box:hover:hover h4 span
+  .testi-box:hover:hover span{
+    color: #fff;
+  } */
+
+  .testi-container .testi-box:before{
+    content: "";
+    position: absolute;
+    color: #000;
+    top: 20px;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    background-image: url(../images/quote.png);
+    background-size: cover;
+    opacity: 0.05;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+
+ /*  footer css is here */
+ 
+footer {
+  /* width: 1560px; */
+  background: black;
+  font-size: 18px;
+  padding: 60px 15px 20px 60px;
+  text-align:left; 
+  color: #fff;
+}
+footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .col-md-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+footer a {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer a:hover {
+  color:hsl(18, 92%, 52%);
+}
+
+.footerlogo img {
+  display: flex;
+  width: auto;
+  height: 70px;
+  
+}
+footer .contacticon {
+  margin-right: 20px;
+}
+
+/* Contact Us column - icon and text */
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .icon-network {
+  font-size: 1.5em;
+  margin-right: 30px;
+}
+.contact li {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the spacing between the icon and text */
+  margin-bottom: 10px; /* Adjust the spacing between the list items */
+}
+
+/* Social Network icons */
+footer .list-unstyled.d-flex {
+  list-style-type: none;
+  display: flex;
+  gap: 10px; /* Adjust the spacing between the icons */
+}

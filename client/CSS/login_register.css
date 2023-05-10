@@ -1,0 +1,108 @@
+
+.modHeader {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 4em;
+    border-style: ridge;
+    border-color: white;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+  
+}
+ul.breadcrumb1 {
+    list-style: none;
+}
+ul.breadcrumb1 li {
+    display: inline;
+    font-size: 14px;
+    color: black;
+}
+ul.breadcrumb1 li+li:before {
+    padding: 5px;
+    color: black;
+    content: "\003E";
+}
+ul.breadcrumb1 li a {
+    color: #FF0266;
+    text-decoration: none;
+}
+.modBody {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;  
+    color: black;                                      
+}
+.loginInput {
+    width:100%;
+    margin-top: 5px;
+    height: 25px;
+}
+#loginButton {
+    cursor: pointer;
+}
+.closeBtn {
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: #FF0266;
+    font-weight: bold;
+    border-style: none;
+
+}
+.link {
+    text-decoration: none;
+    color: #FF0266;
+    font-size: 1em;
+    font-style: italic;
+}
+.submitBtn {
+    background-color:#03DAC6;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+}
+.submitBtn:hover {
+    background-color: #FF0266;
+    color: white;
+}
+.formBody {
+    width: 60%;
+    margin:auto;
+    display:block;
+    text-align: left;
+    padding-bottom: 1em;
+    font-size: 14px;
+}
+.registerInput {
+    width:100%;
+    margin-top: 5px;
+    height: 25px;
+}
+.modalFooter {
+    border-style: ridge;
+    border-color: white;
+    background-color: black;
+    height: 20px
+}
+
+@media (max-width: 450px) {
+    .logo {
+        width: 49px;
+        height: 32px;
+    }
+    .modHeader {
+        height: 3em;
+    }
+    .formBody {
+        width: 90%;
+    }
+}

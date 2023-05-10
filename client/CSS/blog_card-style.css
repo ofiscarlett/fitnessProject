@@ -1,0 +1,110 @@
+/* header */
+* {
+  font-family: 'Montserrat';
+}
+
+/* blog cards */
+.container {
+  max-width: max-content;
+  margin: auto;
+  color: aliceblue;
+}
+
+.card {
+  margin: auto;
+  background-color: black;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cardImage {
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.author-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.author {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.date {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.icon1 {
+  padding-right: 6%;
+}
+
+.icon2 {
+  padding: 3%
+}
+
+.paragraph {
+  margin-bottom: 10%;
+  text-align: justify;
+}
+
+/* add parent card-body to btn */
+.card-body .btn {
+  border: none;
+  color: aliceblue;
+  position: absolute;
+  right: 3%;
+  bottom: 3%;
+}
+
+/* breadcrumbs style */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  padding:  8px;
+  color: black;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+ul.breadcrumb li a {
+  color: #FF0266;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #03DAC6;
+  text-decoration: none;
+}
+
+@media(max-width: 768px) {
+  .card {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+@media(max-width: 576px) {
+  .paragraph {
+    margin-bottom: 15%;
+    font-size: 0.9em;
+    }
+}
